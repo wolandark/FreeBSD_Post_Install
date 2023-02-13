@@ -6,7 +6,8 @@ it downloads the following packaged and performs the following tasks
 <h5>Installs the following packages:</h5><br>
 automount<br> fusefs-exfat<br> fusefs-ext2<br> fusefs-gphotofs<br> fusefs-hfsfuse<br> fusefs-jmtpfs<br> fusefs-ntfs<br> dbus<br> papirus-icon-theme<br> xviewer<br> feh<br> pcmanfm <br>vim-X11<br> wget <br>curl <br>bash<br> py39-ranger<br> htop<br> pfetch<br> git<br> doas<br> xorg<br> icewm<br> w3m<br> w3m-img<br> exa<br> scrot<br> 
 
-<h5>adds the following lines to </h5>[/usr/local/etc/doas.conf]()
+
+adds the following lines to [/usr/local/etc/doas.conf]()
 ```
 permit nopass keepenv :$USER
 permit nopass :$USER cmd reboot
