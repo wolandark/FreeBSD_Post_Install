@@ -1,4 +1,4 @@
-# FreeBSD_Post_install
+# FreeBSD Post Install
 
 This is my personal FreeBSD post-installation script that automates the process of downloading and installing the necessary packages and performing various tasks. The following packages will be installed:
 # Usage
