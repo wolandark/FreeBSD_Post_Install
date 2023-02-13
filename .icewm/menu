@@ -1,0 +1,56 @@
+prog "Xterm" /usr/local/share/icons/ePapirus/24x24/apps/xterm.svg xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12
+prog "Qutebrowser" /usr/local/share/icons/ePapirus/24x24/apps/qutebrowser.svg qutebrowser
+
+menu "Development" folder {
+    prog "Qt 5 Assistant" - /usr/local/lib/qt5/bin/assistant
+    prog "Qt 5 Designer" - /usr/local/lib/qt5/bin/designer
+}
+menu "Editors" folder {
+    prog "Vi" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e vi
+    prog "Vim" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e vim
+}
+menu "Games" folder {
+    menu "Amusement" folder {
+        prog "Xgc" - xgc
+    }
+}
+menu "Graphics" folder {
+    prog "Bitmap" - bitmap
+}
+menu "Network" folder {
+    prog "FTP" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e ftp
+    prog "Mail" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e mail
+    prog "Talk" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e talk
+    prog "Telnet" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e telnet
+    prog "TkVNC" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e tkvnc
+    prog "Zwrite" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e read -p 'Zwrite to users: ' u ; zwrite $u
+}
+menu "Science" folder {
+    prog "bc" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e bc
+    prog "dc" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e dc
+    prog "Xcalc" - xcalc
+}
+menu "Shells" folder {
+    prog "File Manager PCManFM" - pcmanfm
+    prog "ranger" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e ranger-3.9
+    prog "Xterm" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 
+    prog "XTerm (Unicode)" - uxterm
+}
+menu "System" folder {
+    menu "Settings" folder {
+        prog "Desktop Preferences" - pcmanfm --desktop-pref
+        prog "Preferred Applications" - libfm-pref-apps
+    }
+    prog "Top" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e top
+    prog "Xconsole" - xconsole
+}
+menu "Utilities" folder {
+    prog "Units" - xterm -sk -geometry 85x29+216+46 -reverse -fa Monospace -fs 12 -e units
+    prog "Xclock (analog)" - xclock -analog
+    prog "Xclock (digital)" - xclock -digital -update 1
+    prog "Xclock (digital)" - xclock -digital
+    prog "Xev" - xterm -e xev
+    prog "Xkill" - xkill
+    prog "Xrefresh" - xrefresh
+    prog "Xsetroot" - xsetroot
+}

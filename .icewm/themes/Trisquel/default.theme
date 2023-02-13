@@ -1,0 +1,122 @@
+ThemeName="Trisquel 0.1.3"
+ThemeDescription="This theme is based on Trisquel default theme"
+ThemeAuthor="Ren Canteros <ren DOT kudun AT gmx DOT com> and Marcus Moeller <m DOT moeller AT fsfe DOT org>"
+License="GPL"
+Look=flat
+
+RolloverButtonsSupported=1
+TitleButtonsSupported="xmis"
+ShowMenuButtonIcon=1
+TaskBarClockLeds=0
+
+TitleBarJustify=50
+TitleBarHeight=19
+BorderSizeX=3
+BorderSizeY=3
+CornerSizeX=19
+CornerSizeY=19
+DlgBorderSizeX=3
+DlgBorderSizeY=3
+
+#ColorToolTip="rgb:7d/9b/bb"
+ColorToolTip="rgb:f5/f5/b3"
+ColorToolTipText="rgb:44/44/44"
+ColorLabel="rgb:ed/ec/eb"
+ColorLabelText="rgb:44/44/44" 
+
+TitleBarVertOffset=-1
+ColorActiveTitleBarText="rgb:44/44/44"
+ColorActiveTitleBarShadow="rgb:f0/ef/ed"
+ColorNormalTitleBarText="rgb:6b/6a/6a"
+ColorNormalTitleBarShadow=""
+ColorActiveBorder="rgb:3D/3D/3D"
+ColorNormalBorder="rgb:44/44/44"
+
+ColorDialog="rgb:ed/ec/eb"
+ColorListBox="rgb:ed/ec/eb"
+ColorListBoxText="rgb:44/44/44" 
+ColorListBoxSelection="rgb:71/91/b5"
+ColorListBoxSelectionText="rgb:ff/ff/ff"
+ScrollBarX=15
+ScrollBarY=15
+ColorScrollBar="rgb:d6/d4/d2"
+ColorScrollBarSlider="rgb:71/91/b5"
+ColorScrollBarButton="rgb:eb/ea/e9"
+ColorScrollBarButtonArrow="rgb:44/44/44"
+
+ColorNormalMenu="rgb:dc/d9/d7"
+ColorNormalMenuItemText="rgb:44/44/44" 
+ColorActiveMenuItem="rgb:aa/aa/aa"
+ColorActiveMenuItemText="rgb:ff/ff/ff"
+ColorDisabledMenuItemText="rgb:ab/a7/a5"
+ColorDisabledMenuItemShadow="rgb:ff/ff/ff"
+
+ColorDefaultTaskBar=""rgb:44/44/44""
+ColorNormalButton=""rgb:44/44/44""
+ColorNormalButtonText="white"
+ColorNormalWorkspaceButton=""rgb:44/44/44""
+ColorActiveWorkspaceButton="rgb:ca/c8/c5"
+ColorActiveButton="rgb:ca/c8/c5"
+ColorActiveButtonText="rgb:ed/ec/eb"
+
+ColorInput="rgb:ff/ff/ff"
+ColorInputText="rgb:44/44/44"
+ColorInputSelection="rgb:71/91/b5"
+ColorInputSelectionText="rgb:ff/ff/ff"
+
+ColorNormalTaskBarApp="rgb:ed/ec/eb"
+ColorNormalTaskBarAppText="white"
+ColorInvisibleTaskBarApp="rgb:ed/ec/eb"
+ColorInvisibleTaskBarAppText="white" 
+ColorActiveTaskBarApp="rgb:ca/c8/c5"
+ColorActiveTaskBarAppText="rgb:ed/ec/eb"
+ColorMinimizedTaskBarApp="rgb:ed/ec/eb"
+ColorMinimizedTaskBarAppText="white"
+
+ColorApm=""
+ColorApmText="white"
+
+ColorCPUStatusIdle="rgb:44/44/44"
+ColorCPUStatusInterrupts="rgb:44/44/44"
+ColorCPUStatusIoWait="rgb:68/68/68"
+ColorCPUStatusSoftIrq="rgb:ff/ff/ff"
+ColorCPUStatusUser="rgb:71/91/b5"
+ColorCPUStatusSystem="rgb:ff/55/55"
+ColorCPUStatusNice="rgb:7e/00/00"
+
+ColorNetIdle="rgb:44/44/44"
+ColorNetReceive="rgb:71/91/b5"
+ColorNetSend="rgb:8e/0c/a4"
+
+ColorClock=""
+ColorClockText="white"
+
+#DesktopBackgroundColor="rgb:71/91/b5"
+DesktopBackgroundColor="rgb:26/26/30"
+DesktopBackgroundCenter = 1
+DesktopBackgroundScaled = 1
+
+ColorMoveSizeStatus="rgb:e3/e2/e0"
+ColorMoveSizeStatusText="rgb:44/44/44"
+
+ColorQuickSwitch="rgb:e3/e2/e0"
+ColorQuickSwitchText="rgb:44/44/44"
+ColorQuickSwitchActive="rgb:71/91/b5"
+
+# Font Specification
+TitleFontNameXft		= sans:size=9:bold
+MenuFontNameXft			= sans:size=9
+MinimizedWindowFontNameXft	= sans:size=9:bold
+ActiveButtonFontNameXft		= sans:size=9:bold
+NormalButtonFontNameXft		= sans:size=9
+ToolButtonFontNameXft		= sans:size=9
+NormalWorkspaceFontNameXft	= sans:size=9:bold
+ActiveWorkspaceFontNameXft	= sans:size=9:bold
+QuickSwitchFontNameXft		= sans:size=9
+ListBoxFontNameXft		= sans:size=9
+StatusFontNameXft		= sans:size=9
+ToolTipFontNameXft		= sans:size=9
+ActiveTaskBarFontNameXft	= sans:size=9
+NormalTaskBarFontNameXft	= sans:size=9
+ClockFontNameXft		= sans:size=9
+InputFontNameXft		= sans:size=9

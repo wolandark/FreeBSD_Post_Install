@@ -1,0 +1,148 @@
+ThemeName="DraculaPro"
+ThemeDescription="Minimalistic, flat theme for IceWM, inspired and based on Dracula theme"
+ThemeAuthor="missTell | name@domain.com"
+License="GPL"
+Look=flat
+
+TitleBarHeight=27
+TitleBarCentered=1
+TitleBarJustify=54
+RolloverButtonsSupported=1		# 0/1
+ShowMenuButtonIcon=1			# 0/1 Show application icon on menuButton
+
+TitleButtonsLeft="s"
+
+#TitleButtonsRight="xmi"		# Rollup button hidden
+#TitleButtonsSupported="xmis"		# Rollup button hidden
+
+TitleButtonsRight="xmir"		# Rollup button displayed
+TitleButtonsSupported="sxmir"		# Rollup button displayed
+
+BorderSizeX=1
+BorderSizeY=1
+#CornerSizeX=22
+#CornerSizeY=22
+DlgBorderSizeX=1
+DlgBorderSizeY=1
+
+MenuIconSize=24					# Menu
+SmallIconSize=24 				# Taskbar & Titlebar. Taskbar height = height of linux.xpm. Titlebar height = TitleBarHeight in *.theme
+LargeIconSize=32				# Quickswitch window
+HugeIconSize=48					# ?  Cannot identify what it applies to
+
+Gradients="menusel.xpm taskbarbg.xpm taskbuttonactive.xpm taskbuttonminimized.xpm"
+
+ColorNormalBorder="#1e1f29"
+ColorActiveBorder="#1e1f29"
+
+ColorNormalTitleBar="#1e1f29"
+ColorActiveTitleBar="#1e1f29"
+ColorNormalTitleBarText="#7a7a7a"
+ColorActiveTitleBarText="#dfdbd2"
+
+ColorNormalMenu="#1e1f29"
+ColorActiveMenuItem="#1e1f29"
+ColorNormalMenuItemText="#dfdbd2"
+ColorActiveMenuItemText="white"
+ColorDisabledMenuItemText="#7a7a7a"
+
+ColorMoveSizeStatus="black"
+ColorMoveSizeStatusText="#dfdbd2"
+
+PagerShowBorders=0				# Menu
+ColorDefaultTaskBar="#1e1f29"
+ColorNormalTaskBarApp="#1e1f29"
+ColorNormalTaskBarAppText="#dfdbd2"
+ColorActiveTaskBarApp="#1e1f29"
+ColorActiveTaskBarAppText="white"
+ColorMinimizedTaskBarApp="#282a36"
+ColorMinimizedTaskBarAppText="#7a7a7a"
+#ColorNormalWorkspaceButton=" "
+#ColorNormalWorkspaceButtonText=" "
+ColorActiveWorkspaceButton="#9580ff"
+ColorActiveWorkspaceButtonText="white"
+
+ColorNormalButton="#1e1f29"
+ColorNormalButtonText="#dfdbd2"
+
+ColorListBox="#282a36"
+ColorListBoxText="#dfdbd2"
+ColorListBoxSelection="#69548a"
+ColorListBoxSelectionText="white"
+
+#ColorScrollBar=" "
+#ColorScrollBarSlider=" "
+#ColorScrollBarButton=" "
+#ColorScrollBarButtonArrow=" "
+#ColorScrollBarInactiveArrow=" "
+
+# Pink / Purple
+#ColorCPUStatusUser="#e37896"
+#ColorCPUStatusSystem="#d05b7c"
+#ColorCPUStatusNice="#504f4e"
+#ColorCPUStatusIdle="black"
+#ColorNetSend="#ff71a1"
+#ColorNetReceive="#ff71a1"
+#ColorNetIdle="black"
+
+TaskBarClockLeds=0				# 0/1
+ColorClock="#1e1f29"
+ColorClockText="#dfdbd2"
+
+ColorToolTip="#000000"
+ColorToolTipText="#ffffff"
+ColorLabel="#1e1f29"
+ColorLabelText="#dfdbd2"
+ColorDialog="#1e1f29"
+
+ColorQuickSwitch="#1e1f29"
+ColorQuickSwitchActive="#69548a"
+ColorQuickSwitchText="#dfdbd2"
+ColorQuickSwitchSelectionText="#dfdbd2"
+
+# Lighter
+#ColorInput="#dfdbd2"
+#ColorInputText="#1e1f29"
+#ColorInputSelection="#bb75b3"
+#ColorInputSelectionText="white"
+
+# Darker
+#ColorInput="#baa89a"
+ColorInput="#9580ff"
+#ColorInput="#ffff80"
+ColorInputText="#ffffff"
+ColorInputSelection="#8aff80"
+ColorInputSelectionText="#1e1f29"
+
+# --------------------
+# Fonts
+# --------------------
+#TitleFontNameXft="ubuntu:size=11,sans-serif:size=11"
+TitleFontNameXft="HeldustryFT Regular:size=11,sans:size=11:bold"
+MenuFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+StatusFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+QuickSwitchFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+NormalButtonFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+ActiveButtonFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+NormalTaskBarFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+ActiveTaskBarFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+ToolButtonFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+NormalWorkspaceFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+ActiveWorkspaceFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+MinimizedWindowFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+ListBoxFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+ToolTipFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+ClockFontNameXft="sans:size=11:bold"
+ApmFontNameXft="HeldustryFT Regular:size=11,sans:size=11:bold"
+InputFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+LabelFontNameXft="HeldustryFT Regular:size=11,sans:size=11"
+
+# --------------------
+# Desktop Background
+# --------------------
+DesktopBackgroundColor=""		# Prevent IceWM showing a background color
+DesktopBackgroundImage=""		# Prevent IceWM showing a background image
+DesktopBackgroundCenter=0		# 0/1
+DesktopBackgroundScaled=1		# 0/1
+DesktopBackgroundColor="#8b4984"
+DesktopBackgroundImage="default.png"
