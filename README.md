@@ -1,6 +1,11 @@
 # FreeBSD_Post_install
 
 This is my personal FreeBSD post-installation script that automates the process of downloading and installing the necessary packages and performing various tasks. The following packages will be installed:
+# Usage
+Either clone the repo and run the script as root or use the blow curl command as root. You can naturally wget the script as well
+```
+curl -sSL https://raw.githubusercontent.com/<username>/<repository>/<branch>/<path_to_script> | sh
+```
 
 - automount
 - fusefs-exfat
