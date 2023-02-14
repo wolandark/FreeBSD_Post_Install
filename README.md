@@ -4,7 +4,7 @@ This is my personal FreeBSD post-installation script that automates the process 
 # Usage
 Dont clone the repo because the script will do that itself. Instead use fetch to download the script and run it as root. 
 ```
-https://raw.githubusercontent.com/wolandark/FreeBSD_Post_Install/main/FreeBSD_Post_Install.sh
+fetch https://raw.githubusercontent.com/wolandark/FreeBSD_Post_Install/main/FreeBSD_Post_Install.sh
 ```
 
 - automount
