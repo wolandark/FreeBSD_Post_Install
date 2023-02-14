@@ -1,6 +1,6 @@
 # FreeBSD Post Install
 
-This is my personal FreeBSD post-installation script that automates the process of downloading and installing the necessary packages and performing various tasks. The following packages will be installed:
+This is my personal FreeBSD post-installation script that automates the process of downloading and installing the necessary packages and performing various tasks. 
 # Usage
 Dont clone the repo because the script will do that itself. Instead use fetch to download the script and run it as root. 
 ```
@@ -9,7 +9,7 @@ fetch https://raw.githubusercontent.com/wolandark/FreeBSD_Post_Install/main/Free
 # Looks
 ![image](https://github.com/wolandark/FreeBSD_Post_Install/blob/main/screenshot.jpg)
 
-The script will download the following packages:
+This script will download the following packages:
 - automount
 - fusefs-exfat
 - fusefs-ext2
