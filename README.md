@@ -2,9 +2,9 @@
 
 This is my personal FreeBSD post-installation script that automates the process of downloading and installing the necessary packages and performing various tasks. The following packages will be installed:
 # Usage
-Either clone the repo and run the script as root or use the blow curl command as root. You can naturally wget the script as well
+Dont clone the because the script will do that itself. Instead use fetch to download the script and run it as root. 
 ```
-curl -sSL https://raw.githubusercontent.com/<username>/<repository>/<branch>/<path_to_script> | sh
+https://raw.githubusercontent.com/wolandark/FreeBSD_Post_Install/main/FreeBSD_Post_Install.sh
 ```
 
 - automount
@@ -13,6 +13,7 @@ curl -sSL https://raw.githubusercontent.com/<username>/<repository>/<branch>/<pa
 - fusefs-gphotofs
 - fusefs-hfsfuse
 - fusefs-jmtpfs
+- firefox
 - fusefs-ntfs
 - dbus
 - papirus-icon-theme
@@ -34,6 +35,7 @@ curl -sSL https://raw.githubusercontent.com/<username>/<repository>/<branch>/<pa
 - w3m-img
 - exa
 - scrot
+- menumaker
 
 The script performs the following tasks:
 
@@ -84,8 +86,6 @@ xsetroot -cursor_name left_ptr
 xset r rate 250 60
 xset b off
 xmodmap -e "keycode 147 = Super_L"
-export LC_ALL=en_US.UTF-8
-export MM_CHARSET=UTF-8
 ```
 - Adds the following lines to [/home/$USER/.bashrc]():
 ```
@@ -94,9 +94,11 @@ export VISUAL=vim
 export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
-export BROWSER=qutebrowser
+export BROWSER=firefox
 export QT_QPA_PLATFORMTHEME="qt5ct"
 MOZ_X11_EGL=1
+export LC_ALL=en_US.UTF-8
+export MM_CHARSET=UTF-8
 ```
 - Loads the following kernel module:
 ```
