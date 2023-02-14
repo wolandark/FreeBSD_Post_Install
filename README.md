@@ -6,6 +6,8 @@ Dont clone the repo because the script will do that itself. Instead use fetch to
 ```
 fetch https://raw.githubusercontent.com/wolandark/FreeBSD_Post_Install/main/FreeBSD_Post_Install.sh
 ```
+# Looks
+![image](https://github.com/wolandark/FreeBSD_Post_Install/blob/main/screenshot.jpg)
 
 The script will download the following packages:
 - automount
