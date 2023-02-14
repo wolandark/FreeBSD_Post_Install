@@ -2,7 +2,7 @@
 
 This is my personal FreeBSD post-installation script that automates the process of downloading and installing the necessary packages and performing various tasks. The following packages will be installed:
 # Usage
-Dont clone the because the script will do that itself. Instead use fetch to download the script and run it as root. 
+Dont clone the repo because the script will do that itself. Instead use fetch to download the script and run it as root. 
 ```
 https://raw.githubusercontent.com/wolandark/FreeBSD_Post_Install/main/FreeBSD_Post_Install.sh
 ```
