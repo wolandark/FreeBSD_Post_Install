@@ -87,6 +87,8 @@ xsetroot -cursor_name left_ptr
 xset r rate 250 60
 xset b off
 xmodmap -e "keycode 147 = Super_L"
+feh --bg-scale ~/freebsd-wallpaper.jpg
+exec icewm
 ```
 - Adds the following lines to [/home/$USER/.bashrc]():
 ```
