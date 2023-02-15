@@ -63,7 +63,6 @@ hw.syscond.bell=0
 - Adds the following lines to [/etc/sysctl.conf]():
 ```
 vfs.usermount=1
-kern.shed_threshold=4
 kern.sched.preempt_thresh=64
 kern.ipc.shm_allow_removed=1
 kern.vt.enable_bell=0
