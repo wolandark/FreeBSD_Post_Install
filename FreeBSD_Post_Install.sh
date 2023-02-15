@@ -39,7 +39,7 @@ echo -e "autoboot_delay=3\nloader_logo=\"beastie\"\ncoretemp_load\"YES\"\ntmpfs_
 #Kern 
 echo -e "\033[33mTuning for desktop\033[0m"
 echo -e "\033[32mDone\033[0m"
-echo -e "vfs.usermount=1\nkern.shed_threshold=4\nkern.sched.preempt_thresh=64\nkern.ipc.shm_allow_removed=1\nkern.vt.enable_bell=0" >> /etc/sysctl.conf
+echo -e "vfs.usermount=1\nkern.sched.preempt_thresh=64\nkern.ipc.shm_allow_removed=1\nkern.vt.enable_bell=0" >> /etc/sysctl.conf
 
 #Fuse & Automount
 echo -e "\033[33mConfiguring fuse\033[0m"
