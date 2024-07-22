@@ -62,7 +62,7 @@ echo -e "export TERM=xterm-256color\nexport VISUAL=vim\nexport LANG=en_US.UTF-8\
 
 #Installing PKGs
 echo -e "\033[35mPreparing to Download Essential Packages...\033[0m"
-pkg install -y automount fusefs-exfat fusefs-ext2 fusefs-gphotofs fusefs-hfsfuse fusefs-jmtpfs fusefs-ntfs dbus papirus-icon-theme xviewer feh pcmanfm vim-X11 wget curl bash py39-ranger htop pfetch git doas xorg icewm w3m w3m-img exa scrot firefox menumaker
+pkg install -y automount fusefs-exfat fusefs-ext2 fusefs-gphotofs fusefs-hfsfuse fusefs-jmtpfs fusefs-ntfs dbus papirus-icon-theme xviewer feh pcmanfm vim-X11 wget curl bash py311-ranger htop pfetch git doas xorg icewm w3m w3m-img exa scrot firefox menumaker
 echo -e "\033[32mDone\033[0m"
 
 #Load fuse
