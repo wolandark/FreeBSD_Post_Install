@@ -48,7 +48,7 @@ echo -e "ntpd_flags=\"-g\"\nfuse_enable=\"YES\"" >> /etc/rc.conf
 
 echo -e "\033[33mConfiguring automount\033[0m"
 echo -e "\033[32mDone\033[0m"
-echo -e "USERMOUNT=YES\nATIME=NO\nREMOVEDIRS=YES\nFM=\"pcmanfm\"\nUSER=woland\nENCODING=en_US.UTF-8" >> /usr/local/etc/automount.conf
+echo -e "USERMOUNT=YES\nATIME=NO\nREMOVEDIRS=YES\nFM=\"pcmanfm\"\nUSER=$normal\nENCODING=en_US.UTF-8" >> /usr/local/etc/automount.conf
 
 #Xinit
 echo -e "\033[33mConfiguring xinitrc\033[0m"
