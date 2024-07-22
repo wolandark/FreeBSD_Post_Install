@@ -34,7 +34,7 @@ echo -e "permit nopass keepenv :$normal\npermit nopass :$normal cmd reboot\nperm
 #Boot
 echo -e "\033[33mConfiguring boot\033[0m"
 echo -e "\033[32mDone\033[0m"
-echo -e "autoboot_delay=3\nloader_logo=\"beastie\"\ncoretemp_load\"YES\"\ntmpfs_load=\"YES\"\naio_load=\"YES\"\nfuse_load=\"YES\"hw.syscond.bell=0" >> /boot/loader.conf
+echo -e "autoboot_delay=3\nloader_logo=\"beastie\"\ncoretemp_load\"YES\"\ntmpfs_load=\"YES\"\naio_load=\"YES\"\nfuse_load=\"YES\"\nhw.syscond.bell=0" >> /boot/loader.conf
 
 #Kern 
 echo -e "\033[33mTuning for desktop\033[0m"
