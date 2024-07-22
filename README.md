@@ -115,7 +115,7 @@ dbus
 
 This is a very basic shell script that aims to aid users who want to experince FreeBSD in a graphical enviorment. This script assumes the following but will work just fine in any case:
 
-- You are on a clean install of FreeBSD 13.1+
+- You are on a clean install of FreeBSD 14+
 - You are familiar with how unix operating systems work and are able to alter the script should you need to
 - You know what you're doing
 - You prefer to startx instead of using a display manager although any display manager can be installed and enabled by the user if needed
