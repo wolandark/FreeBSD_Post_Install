@@ -1,3 +1,8 @@
+# Archived
+I am out of loop in regards to FreeBSD and have very little interest in it anymore.
+
+<hr>
+<details>
 # FreeBSD Post Install
 
 This is my personal FreeBSD post-installation script that automates the process of downloading and installing the necessary packages and performing various tasks. 
@@ -127,3 +132,4 @@ Please feel free to use, distribute and change the script to your needs. Also pl
 # Discalimer
 I do not claim the credit for the icewm theme. The nord icewm theme is available for download from [here](https://www.box-look.org/p/1952840) and the credit goes to the amazing person who made the theme. I have of course added my own keybinindg and certain customizations to the icewm files.
 
+</details>
